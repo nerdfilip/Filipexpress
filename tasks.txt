@@ -1,0 +1,50 @@
+--- DONE & VERIFIED -----------------------------------------------------------------------------------------------------------------------------------------
+
+- Create all entities - Done & Verified
+- DB Initializer - Done & Verified
+- Make login service with username & password to match - Done & Verified
+- Create Client CRUD view - Done & Verified
+- Create Car CRUD view - Done & Verified
+- Re-Create Rentals service - Done & Verified
+	+ Make Foreign Key vehicleid and clientid - Done & Verified
+- Create Rent CRUD view - Done & Verified
+	+ Verify for add & update button if clientid & vehicleid exists in database - Done & Verified (ComboBox)
+	+ Add delete pop-out confirmation - Done & Verified
+	+ Check if Vehicle is availabe for rent - Done & Verified
+	+ Add search bar - 
+- Create Menu view - Done & Verified
+	+ Make menu button for every page - Done & Verified
+	+ Create view with buttons : Client, Car, Rentals, Audit, About, Log Out - Done & Verified
+- Update Rentals class - Done & Verified
+	+ Add fines field where if the rental is late, add +250/day to the total - Done & Verified
+	+ Add Total field - Done & Verified
+- Creade Audit view (nothing can change here / history) - Done & Verified
+	+ 3 Buttons : refresh, search and menu toggle - done
+	+ when the administrator deletes a rental from the database, it goes into audit, 
+	  and the return date is the one from when it was deleted - done
+	+ Update Audit class - done
+- Verify all entities & views - Done & Verified
+	+ Client verify - same name - verified
+			- same phone - verified
+			- same email - verified
+			- same fields update - verified
+- Create About view - Done & Verified
+- Add more record in DBInitializer - Done & Verified
+- Custom error messages - verified
+	+ Verify all errors - 
+	+ Verify all restrictions - Clients - verfied
+				  - Cars - verified
+				  - Rentals - verified
+- Small adjustments - Done & Verified
+
+--- BUGS ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Car panel & Rental panel can't delete records - Resolved
+- When user delete a client / car which is in rental record can't delete, make error handler - Resolved
+- Rental panel can't update records - Resolved (make separate save service)
+
+--- WORKING ON IT -------------------------------------------------------------------------------------------------------------------------------------------
+
+--- PENDINGS ------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+- Push on GitHub
