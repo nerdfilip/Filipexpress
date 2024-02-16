@@ -36,6 +36,7 @@ To utilize the Filipexpress Car Rental System, follow these simple steps:
   password: 12345qwert
 ```
 Or you can edit **application.properties** with your Postgres settings.
+
 4. **Run the Application:** Simply run the compiler on **Application** class in IntelliJ IDEA to start the application. The necessary databases will be created automatically with predefined data, streamlining the setup process.
 5. **Explore the Functionality:** Once the application is up and running, you can explore its various functionalities. Navigate through the user-friendly interface to manage rentals, clients, vehicles, and audits effortlessly.
 You can use these credidentials to login on Filipexpress:
